@@ -1,2 +1,56 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
+
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-Regular.ttf');
+}
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-Italic.ttf');
+}
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-Medium.ttf');
+}
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-MediumItalic.ttf');
+}
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-Bold.ttf');
+}
+@font-face {
+	font-family: JetBrains Mono;
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+	src: url('/font/JetBrainsMono-BoldItalic.ttf');
+}
+
+@theme {
+	--color-tn-bg: #1a1b26;
+	--color-tn-red: #f7768e;
+	--color-tn-white: #b4f9f8;
+	--color-tn-blue: #7aa2f7;
+	--color-tn-comment: #565f89;
+	--color-tn-t2: #414868;
+
+	--font-sans: 'JetBrains Mono', 'sans-serif';
+}
