@@ -3,7 +3,7 @@
 	import LinkedInLogo from './SVG/LinkedInLogo.svelte';
 </script>
 
-<div class="mx-auto flex w-[900px] items-center gap-4 pt-12">
+<div class="mx-auto flex w-[900px] items-center gap-4 py-12">
 	<div class="flex basis-3/4 flex-col gap-8">
 		<h1 class="text-tn-white text-4xl font-bold">
 			Hello, I'm <span class="text-tn-blue">Josh Walter</span>

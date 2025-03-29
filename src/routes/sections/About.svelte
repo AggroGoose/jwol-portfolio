@@ -1,4 +1,4 @@
-<div class="text-tn-white mx-auto flex w-[900px] flex-col gap-8 pt-12">
+<div class="text-tn-white mx-auto flex w-[900px] flex-col gap-8 py-6">
 	<h1 id="about" class=" self-center text-4xl font-bold">
 		{'<'}<span class="text-tn-red">About</span>{'>'}
 	</h1>
