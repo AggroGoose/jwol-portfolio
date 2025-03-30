@@ -5,7 +5,7 @@
 	import Sarcastonaut from './projects/Sarcastonaut.svelte';
 </script>
 
-<div class="mx-auto flex w-[900px] flex-col items-center gap-8 py-6">
+<div class="mx-auto flex flex-col items-center gap-8 py-6 max-lg:px-4 lg:w-[900px]">
 	<h1 id="projects" class="text-tn-white self-center text-4xl font-bold">
 		{'<'}<span class="text-tn-red">Projects</span>{'>'}
 	</h1>

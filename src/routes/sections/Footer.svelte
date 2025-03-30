@@ -3,8 +3,8 @@
 	import LinkedInLogo from './SVG/LinkedInLogo.svelte';
 </script>
 
-<div class="text-tn-white flex w-full flex-col bg-black py-6">
-	<div class="text-tn-white mx-auto flex w-[900px] flex-col gap-8 text-center">
+<div class="text-tn-white flex w-full flex-col bg-black py-6 max-lg:px-4">
+	<div class="text-tn-white mx-auto flex flex-col gap-8 text-center lg:w-[900px]">
 		<h1 id="Contact" class=" self-center text-4xl font-bold">
 			{'<'}<span class="text-tn-red">Contact</span>{'>'}
 		</h1>

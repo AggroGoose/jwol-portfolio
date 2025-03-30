@@ -3,8 +3,8 @@
 	import LinkedInLogo from './SVG/LinkedInLogo.svelte';
 </script>
 
-<div class="mx-auto flex w-[900px] items-center gap-4 py-12">
-	<div class="flex basis-3/4 flex-col gap-8">
+<div class="mx-auto flex items-center gap-4 py-12 max-lg:flex-col max-lg:px-4 lg:w-[900px]">
+	<div class="flex flex-col gap-8 lg:basis-3/4">
 		<h1 class="text-tn-white text-4xl font-bold">
 			Hello, I'm <span class="text-tn-blue">Josh Walter</span>
 		</h1>
@@ -21,7 +21,7 @@
 			>
 		</div>
 	</div>
-	<div class="basis-1/4">
+	<div class="max-lg:max-w-[50vw] lg:basis-1/4">
 		<img
 			class="rounded-full"
 			src="/Images/JoshBowtie.png"

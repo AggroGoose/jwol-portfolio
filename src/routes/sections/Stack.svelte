@@ -13,12 +13,12 @@
 </script>
 
 <div class="bg-tn-t2 w-full">
-	<div class="text-tn-bg mx-auto flex w-[900px] flex-col items-center gap-8 py-6">
+	<div class="text-tn-bg mx-auto flex flex-col items-center gap-8 py-6 max-lg:px-4 lg:w-[900px]">
 		<h1 id="stack" class="text-tn-white self-center text-4xl font-bold">
 			{'<'}<span class="text-tn-red">Stack</span>{'>'}
 		</h1>
 		<h2 class="text-tn-white text-2xl font-bold">Languages</h2>
-		<div class="flex gap-4">
+		<div class="flex flex-wrap justify-center gap-4">
 			<div
 				class="bg-tn-light flex h-28 w-28 flex-col items-center justify-center gap-2 rounded-full"
 			>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 		<h2 class="text-tn-white text-2xl font-bold">Frameworks</h2>
-		<div class="flex gap-4">
+		<div class="flex flex-wrap justify-center gap-4">
 			<div
 				class="bg-tn-light flex h-28 w-28 flex-col items-center justify-center gap-2 rounded-full"
 			>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 		<h2 class="text-tn-white text-2xl font-bold">Tools</h2>
-		<div class="flex gap-4">
+		<div class="flex flex-wrap justify-center gap-4">
 			<div
 				class="bg-tn-light flex h-28 w-28 flex-col items-center justify-center gap-2 rounded-full"
 			>

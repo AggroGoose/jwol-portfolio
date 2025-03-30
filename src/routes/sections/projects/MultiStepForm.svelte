@@ -1,8 +1,8 @@
 <h2 class="text-tn-white text-3xl font-bold">Multi-Step Form</h2>
-<div class="flex flex-row-reverse overflow-hidden rounded-lg">
+<div class="flex flex-col overflow-hidden rounded-lg lg:flex-row-reverse">
 	<a
 		href="https://fem-multi-step-form-five.vercel.app/"
-		class="hover:border-tn-red basis-3/5 rounded-l-lg hover:border-2"
+		class="hover:border-tn-red rounded-l-lg hover:border-2 lg:basis-3/5"
 	>
 		<img
 			src="/Images/MultiStepFormScreenshot.png"
@@ -10,7 +10,7 @@
 			alt="screenshot of the sarcastonaut blog"
 		/>
 	</a>
-	<div class="bg-tn-t2 flex basis-2/5 flex-col justify-between p-4">
+	<div class="bg-tn-t2 flex flex-col gap-4 p-4 lg:basis-2/5 lg:justify-between">
 		<p class="text-tn-white text-lg">
 			Project Website that uses Svelte5 to build a multistep form. Challenge project by Front End
 			Mentor, picked to experiment with Svelte Runes.
